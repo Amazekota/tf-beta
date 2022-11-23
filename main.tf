@@ -3,7 +3,7 @@ resource "aws_instance" "web1" {
   instance_type = var.instance_type
 
   tags = {
-    Name = "instance01"
+    Name = "instance1"
   }
 }
 
@@ -12,6 +12,6 @@ resource "aws_instance" "web2" {
   instance_type = var.instance_type
 
   tags = {
-    Name = "instance02"
+    Name = "instance2"
   }
 }
